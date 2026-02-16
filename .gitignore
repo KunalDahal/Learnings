@@ -1,0 +1,9 @@
+.venv/
+__pychace__/
+
+# Ignore the .env file that contains environment variables
+.env
+# Ignore the .vscode directory that contains Visual Studio Code settings
+.vscode/
+
+Projects/
