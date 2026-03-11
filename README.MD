@@ -1,159 +1,200 @@
-# ML Playground 🚀
+# My Learning Journey
 
-This is my personal playground for learning Machine Learning.  
-I’ve started with Python basics and will keep adding new topics, notes, and experiments as I dive deeper.
+This repository is basically my personal learning log.
 
----
-## DAY 168
-## 📚 Topics Covered
-
-- ✅ Python Basics
-- ✅ OOP
-- ✅ Numpy
-- ✅ Pandas
-- ✅ matplotlib
-- ✅ seaborn
-- ✅ Plotly
-- ✅ Selenium, BS4
-- ✅ Tkinter
-- ✅ flask
-- ✅ Streamlit
-- ✅ and few other python advanced modules for TG Bot projects
-- ✅ Data Preprocessing(Gather, Clean, EDA)
-- ✅ Probability, linear algebra for machine learning
-- ✅ Basics of ML(history, types, mldc, etc.)
-- ✅ Supervised Learning - Simple Linear Regression(OLS)
-- ✅ Supervised Learning - Multiple Linear Regression(OLS)
-- ✅ Gradient Descent From Scratch | End to End Gradient Descent
-- ✅ Batch Gradient Descent
-- ✅ Stochastic Gradient Descent
-- ✅ Mini-Batch Gradient Descent
-- ✅ Regression Analysis
-- ✅ Polynomial Linear Regression
-
----
-## Projects Done : 
-- [Email Spam detection(Naive Bayes)](https://github.com/KunalDahal/Email-Spam-Detection-Naive-Bayes-.git)
-- [Face-detection-using-OpenCV](https://github.com/KunalDahal/Face-detection-using-OpenCV.git)
-- [Text Classification GUI Tool](https://github.com/KunalDahal/Text-Classification-GUI-Tool.git)
-- [House-Price-Predictor-Model(Multi LR)](https://github.com/KunalDahal/House-Price-Predictor-Model.git)
-
-
-## ⭐ Updates
-
-I’ll continue expanding this repo with fresh concepts, code snippets, and mini-projects as I explore the ML world.
-
-# 🚀 Python Advanced Telegram Bot Projects ()
-
-This repository contains five advanced Telegram bot projects built using Python and related technologies like Telethon, MongoDB, and Redis.
+I use it to track what I’ve learned, what I’ve built, and the random paths my learning sometimes takes.
 
 ---
 
-## 1️⃣ Auto News Posting Bot
+## Learning Path
 
-**Description:**
-A multi-source news aggregation and auto-posting bot.
+### 1. First Programming Languages
 
-**Features:**
-- Monitors multiple source channels using Telethon (MTProto API)
-- Forwards content to bot
-- Edits and formats text into a default community format
-- Automatically publishes formatted news to target channel
+I didn’t start with Python.
 
-**Tech Stack:**
-- Python
-- Telethon (MTProto API)
-- Python Telegram Bot
+My journey began with:
+
+* C
+* C++
+
+This is where I learned the fundamentals of programming and problem solving.
 
 ---
 
-## 2️⃣ Rename Bot (PDF)
+### 2. Web Development Phase
 
-**Description:**
-A smart file renaming bot designed for manga/manhua communities.
+After that I explored basic web development.
 
-**Features:**
-- Auto-detects chapter numbers from forwarded files (PDFs, documents)
-- Renames files according to custom community format
-- Multiple utility commands
-- Advanced formatting system
+* HTML
+* CSS
+* JavaScript
 
-**Tech Stack:**
-- Python
-- Python Telegram Bot
-- Custom parsing logic
-- ffmpeg
+I stopped at JavaScript and didn’t go deeper into frameworks, Realized that I was not a development guy!
 
 ---
 
-## 3️⃣ Quiz Bot
+### 3. Other Technologies Along the Way
 
-**Description:**
-An interactive quiz bot with leaderboard system.
+While experimenting with different things I also worked with:
 
-**Features:**
-- Auto quiz posting in multiple channels
-- Stores user scores in MongoDB
-- Global leaderboard system
-- 1,000+ active users
-
-**Tech Stack:**
-- Python
-- Python Telegram Bot
-- MongoDB
-- Redis (for caching & scalability)
+* Java
+* Django (Python framework – used during internship)
+* Git
+* GitHub
+* Docker (used for deploying projects)
+* Basic AWS knowledge
+* OpenCV
+* Flutter
+* Dart -> Again Realized that I was not a development guy, so i left! 
 
 ---
 
-## 4️⃣ Personal Telegram BOT
+## Python Ecosystem
 
-**Description:**
-A privacy-focused middleman bot between users and admin.
+Python eventually became my main language.
 
-**Features:**
-- Users message the bot
-- Bot forwards messages to admin
-- Admin replies via bot
-- Maintains anonymity and privacy
-- Secure communication bridge
+### Core Python
 
-**Tech Stack:**
-- Python
-- Python Telegram Bot
+* Python Basics
+* OOP
+* Tkinter
+* Flask
+* Streamlit
 
----
+### Data and Visualization
 
-## 5️⃣ Search Bot
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Plotly
 
-**Description:**
-An intelligent anime, manga, manhwa search bot for Telegram communities.
+### Automation and Scraping
 
-**Features:**
-- `/anime <name>` command, andmany more
-- Returns most relevant matching anime title
-- Properly formatted response with link
-- Embedding-based semantic similarity search
-- 10,000+ active users
+* Selenium
+* BeautifulSoup (BS4)
 
-**Tech Stack:**
-- Python
-- Python Telegram Bot
-- MongoDB (with embeddings)
-- Redis (for scalability & caching)
+### Data Work
+
+* Data Gathering
+* Data Cleaning
+* Exploratory Data Analysis
 
 ---
 
-# 📌 Summary
+## Tools and Libraries I Used
 
-These projects demonstrate:
+### Telegram Development
 
-- Advanced Telegram Bot development
-- MTProto integration with Telethon
-- File parsing & automation
-- Real-time channel monitoring
-- Leaderboard systems
-- Privacy-focused messaging architecture
-- Embedding-based semantic search
-- Scalable backend systems using MongoDB & Redis
+* python-telegram-bot
+* Telethon
+* Pyrogram
+
+### Databases
+
+* MongoDB (PyMongo)
+* Motor (Async MongoDB)
+* Redis
+* aioredis
+
+### Other Tools
+
+* FFmpeg
+* Telegraph API
+* Sentence Transformers
+* HuggingFace API
 
 ---
+
+## Machine Learning
+
+### Mathematical Foundations
+
+* Probability
+* Linear Algebra for Machine Learning
+
+### ML Fundamentals
+
+* Machine Learning history
+* Types of machine learning
+* ML development cycle
+
+### Algorithms and Concepts
+
+#### Linear Models
+
+* Simple Linear Regression (OLS)
+* Multiple Linear Regression (OLS)
+* Polynomial Regression
+
+#### Optimization
+
+* Gradient Descent from scratch
+* Batch Gradient Descent
+* Stochastic Gradient Descent
+* Mini Batch Gradient Descent
+
+#### Model Understanding
+
+* Multicolinearity
+* Bias Variance Tradeoff
+* Regression Analysis
+
+#### Feature Engineering
+
+* Feature Selection
+
+  * Filter Methods
+  * Wrapper Methods
+  * Embedded Methods
+
+#### Regularization
+
+* Ridge Regression (L2)
+* Lasso Regression (L1)
+* ElasticNet Regression
+
+---
+# *Next Update Coming tomorrow!* 
+---
+
+## Projects(Random Ones)
+
+Email Spam Detection (Naive Bayes)
+https://github.com/KunalDahal/Email-Spam-Detection-Naive-Bayes-.git
+
+Face Detection using OpenCV
+https://github.com/KunalDahal/Face-detection-using-OpenCV.git
+
+Text Classification GUI Tool
+https://github.com/KunalDahal/Text-Classification-GUI-Tool.git
+
+House Price Predictor (Multiple Linear Regression)
+https://github.com/KunalDahal/House-Price-Predictor-Model.git
+
+---
+
+## Telegram Bots Projects
+Sorry, I can't share the repository links as the projects are private and contain valuable work. These are the Projects I built over the year **2025-2026** : 
+
+- **Media Encoding Bot** : Encodes videos using FFmpeg with configurable settings like CRF, preset, audio bitrate and codec options.
+
+- **File Sharing Bot** : Stores uploaded files and generates shareable download links.
+
+- **Anime Data Bot** : Fetches anime data from AniList, MyAnimeList APIs and stores them in MongoDB.
+
+- **Semantic Anime Search Bot** : Searches stored anime data using Sentence Transformers for semantic matching.
+
+- **Personal Telegram Bot** : A personal bot that acts as a mediator between users and me to maintain privacy.
+
+- **Quiz Bot** : A Telegram quiz bot for group chats. Currently used by **5000+ active users**.
+
+- **Auto Posting Bot** : Automatically collects posts from multiple Telegram channels, modifies the content using HuggingFace API, and reposts them into a destination channel.
+
+- **Torrent Tracker Bot** : Tracks the latest torrent releases using RSS feeds from sites like Nyaa.si, Tokyo Toshokan, and Nekobit. Link : https://github.com/KunalDahal/Torrent-Tracker-Telegram-Bot.git
+
+---
+
+> Programming is just turning coffee into bugs and then turning bugs back into features.
+
+See ya!
