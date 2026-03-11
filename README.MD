@@ -1,8 +1,10 @@
 # My Learning Journey
 
-This repository is basically my personal learning log.
+This repository’s README.md is basically my personal learning log.
 
 I use it to track what I’ve learned, what I’ve built, and the random paths my learning sometimes takes.
+
+While this README describes my **overall learning journey in programming and technology**, the actual code in this repository mainly focuses on **my Machine Learning learning process**, where I push the experiments, implementations, and concepts I study. A Dumpyard for all Algorithms and Techniques I learn!
 
 ---
 
@@ -10,9 +12,7 @@ I use it to track what I’ve learned, what I’ve built, and the random paths m
 
 ### 1. First Programming Languages
 
-I didn’t start with Python.
-
-My journey began with:
+I did start with Python, But My journey began with:
 
 * C
 * C++
@@ -119,7 +119,7 @@ Python eventually became my main language.
 * Types of machine learning
 * ML development cycle
 
-### Algorithms and Concepts
+### Algorithms and Concepts (In this Repository)
 
 #### Linear Models
 
@@ -153,6 +153,10 @@ Python eventually became my main language.
 * Ridge Regression (L2)
 * Lasso Regression (L1)
 * ElasticNet Regression
+
+#### Instance Based Learning
+
+* K-Nearest Neighbors (KNN)(K selection, cross validation)
 
 ---
 # *Next Update Coming tomorrow!* 
