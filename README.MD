@@ -142,11 +142,42 @@ Python eventually became my main language.
 
 #### Feature Engineering
 
-* Feature Selection
+##### Feature Construction
+- Creating new features from existing data
 
-  * Filter Methods
-  * Wrapper Methods
-  * Embedded Methods
+##### Feature Selection
+- Filter Methods
+- Wrapper Methods
+- Embedded Methods
+
+##### Feature Transformation
+
+**Encoding**
+- One Hot Encoding
+- Ordinal Encoding
+
+**Scaling**
+- MinMax Normalization
+- Standardization (Standard Scaler)
+
+**Mathematical Transformations**
+- Log Transformation
+- Square Root Transformation
+- Squared Transformation
+- Reciprocal Transformation
+- Power Transformation
+
+**Distribution Transformations**
+- Box-Cox Transformation
+- Yeo-Johnson Transformation
+
+**Other Transformations**
+- Binarization
+- Discretization
+
+##### Pipelines
+- ColumnTransformer
+- sklearn Pipeline
 
 #### Regularization
 
