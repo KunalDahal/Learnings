@@ -5,5 +5,5 @@ __pychace__/
 .env
 # Ignore the .vscode directory that contains Visual Studio Code settings
 .vscode/
+Extra/
 
-Projects/
