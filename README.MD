@@ -23,6 +23,7 @@ After that I explored basic web development.
 * HTML
 * CSS
 * JavaScript
+
 I stopped at JavaScript and didn’t go deeper into frameworks, Realized that I was not a development guy!
 While experimenting with different things I also worked with:
 
