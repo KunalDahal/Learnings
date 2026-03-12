@@ -8,9 +8,9 @@ While this README describes my **overall learning journey in programming and tec
 
 ---
 
-## Learning Path
+# Learning Path
 
-### 1. First Programming Languages
+## 1. Programming Languages
 
 I did start with Python, But My journey began with:
 
@@ -18,23 +18,12 @@ I did start with Python, But My journey began with:
 * C++
 
 This is where I learned the fundamentals of programming and problem solving.
-
----
-
-### 2. Web Development Phase
-
 After that I explored basic web development.
 
 * HTML
 * CSS
 * JavaScript
-
 I stopped at JavaScript and didn’t go deeper into frameworks, Realized that I was not a development guy!
-
----
-
-### 3. Other Technologies Along the Way
-
 While experimenting with different things I also worked with:
 
 * Java
@@ -80,6 +69,10 @@ Python eventually became my main language.
 * Data Cleaning
 * Exploratory Data Analysis
 
+### Pipelines(SK-Learn)
+- ColumnTransformer
+- sklearn Pipeline
+
 ---
 
 ## Tools and Libraries I Used
@@ -105,52 +98,17 @@ Python eventually became my main language.
 * HuggingFace API
 
 ---
+## Feature Engineering
 
-## Machine Learning
-
-### Mathematical Foundations
-
-* Probability
-* Linear Algebra for Machine Learning
-
-### ML Fundamentals
-
-* Machine Learning history
-* Types of machine learning
-* ML development cycle
-
-### Algorithms and Concepts (In this Repository)
-
-#### Linear Models
-
-* Simple Linear Regression (OLS)
-* Multiple Linear Regression (OLS)
-* Polynomial Regression
-
-#### Optimization
-
-* Gradient Descent from scratch
-* Batch Gradient Descent
-* Stochastic Gradient Descent
-* Mini Batch Gradient Descent
-
-#### Model Understanding
-
-* Multicolinearity
-* Bias Variance Tradeoff
-* Regression Analysis
-
-#### Feature Engineering
-
-##### Feature Construction
+### Feature Construction
 - Creating new features from existing data
 
-##### Feature Selection
+### Feature Selection
 - Filter Methods
 - Wrapper Methods
 - Embedded Methods
 
-##### Feature Transformation
+### Feature Transformation
 
 **Encoding**
 - One Hot Encoding
@@ -175,9 +133,42 @@ Python eventually became my main language.
 - Binarization
 - Discretization
 
-##### Pipelines
-- ColumnTransformer
-- sklearn Pipeline
+### Feature Extraction
+- Principle Component Analysis
+
+---
+
+## Machine Learning
+
+### Mathematical Foundations & Fundamentals
+
+* Probability
+* Linear Algebra for Machine Learning
+* Calculus Basics
+* Machine Learning history
+* Types of machine learning
+* ML development cycle
+
+### Algorithms and Concepts (In this Repository)
+
+#### Linear Models
+
+* Simple Linear Regression (OLS)
+* Multiple Linear Regression (OLS)
+* Polynomial Regression
+
+#### Optimization
+
+* Gradient Descent from scratch
+* Batch Gradient Descent
+* Stochastic Gradient Descent
+* Mini Batch Gradient Descent
+
+#### Model Understanding
+
+* Multicolinearity
+* Bias Variance Tradeoff
+* Regression Analysis
 
 #### Regularization
 
