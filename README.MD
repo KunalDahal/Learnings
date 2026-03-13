@@ -70,9 +70,11 @@ Python eventually became my main language.
 * Data Cleaning
 * Exploratory Data Analysis
 
-### Pipelines(SK-Learn)
+### ML Workflow
 - ColumnTransformer
 - sklearn Pipeline
+- ROC curve, AUC-ROC curve
+- Cross Validation and its types
 
 ---
 
