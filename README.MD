@@ -181,8 +181,20 @@ Python eventually became my main language.
 
 #### Instance Based Learning
 
-* K-Nearest Neighbors (KNN)(K selection, cross validation)
+* K-Nearest Neighbors (KNN)
+  * Choosing the optimal value of K
+  * Cross Validation for model selection
 
+#### Probabilistic Learning
+
+* Naive Bayes
+  * Gaussian Naive Bayes
+  * Multinomial Naive Bayes
+  * Bernoulli Naive Bayes
+  * Categorical Naive Bayes
+  * Laplace Smoothing
+  * Simple CNN Spam Classifier Project
+  * Heroku Deployment Configuration
 ---
 # *Next Update Coming tomorrow!* 
 ---
@@ -200,28 +212,6 @@ https://github.com/KunalDahal/Text-Classification-GUI-Tool.git
 
 House Price Predictor (Multiple Linear Regression)
 https://github.com/KunalDahal/House-Price-Predictor-Model.git
-
----
-
-## Telegram Bots Projects
-Sorry, I can't share the repository links as the projects are private and contain valuable work. These are the Projects I built over the year **2025-2026** : 
-
-- **Media Encoding Bot** : Encodes videos using FFmpeg with configurable settings like CRF, preset, audio bitrate and codec options.
-
-- **File Sharing Bot** : Stores uploaded files and generates shareable download links.
-
-- **Anime Data Bot** : Fetches anime data from AniList, MyAnimeList APIs and stores them in MongoDB.
-
-- **Semantic Anime Search Bot** : Searches stored anime data using Sentence Transformers for semantic matching.
-
-- **Personal Telegram Bot** : A personal bot that acts as a mediator between users and me to maintain privacy.
-
-- **Quiz Bot** : A Telegram quiz bot for group chats. Currently used by **5000+ active users**.
-
-- **Auto Posting Bot** : Automatically collects posts from multiple Telegram channels, modifies the content using HuggingFace API, and reposts them into a destination channel.
-
-- **Torrent Tracker Bot** : Tracks the latest torrent releases using RSS feeds from sites like Nyaa.si, Tokyo Toshokan, and Nekobit. Link : https://github.com/KunalDahal/Torrent-Tracker-Telegram-Bot.git
-
 ---
 
 > Programming is just turning coffee into bugs and then turning bugs back into features.
