@@ -9,7 +9,7 @@
 ```
 ┌───────────────────────────────────────────────────────────────────────────────┐
 │                                                                               │
-│  JAN-APR 2025          APR-SEPT 2025         OCT-DEC 2025          JAN+ 2026  │
+│  JAN-APR 2025        APR-SEPT 2025      OCT-DEC 2025          JAN+ 2026       │
 │  ┌────────────┐     ┌─────────────┐   ┌──────────────┐    ┌──────────────┐    │
 │  │ Foundation │──▶ │ Data Tools  │──▶│  Mathematics │──▶│ Algorithms   │    │
 │  │ & Basics   │     │ & Gathering │   │   & Theory   │    │ & ML Models  │    │
