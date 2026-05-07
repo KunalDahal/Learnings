@@ -220,6 +220,8 @@ Preventing overfitting and improving generalization:
 - **Binary Classification**: Two-class problems
 - **Multinomial Classification (Softmax)**: Multi-class with probability distributions
 - **One-vs-Rest (OvR)**: Multi-class strategy
+- **Maximum Likelihood Estimation (MLE)**: Optimization method for logistic regression
+- **Regularization in Logistic Regression**: L1 and L2 regularization for preventing overfitting
 
 - **Location**: [Logistic Regression/](Phase-4-ML-Algorithms/Logistic%20Regression/)
 
@@ -234,6 +236,13 @@ Preventing overfitting and improving generalization:
 - Bayes' theorem application
 - Assumptions and limitations
 - **Location**: [Naive Bayes/](Phase-4-ML-Algorithms/Naive%20Bayes/)
+
+#### Support Vector Machines (SVM)
+- Linear and non-linear classification
+- Kernel methods and kernel tricks
+- Support vector selection
+- Margin maximization concepts
+- **Location**: [SVM/](Phase-4-ML-Algorithms/SVM/) *(In Progress)*
 
 ---
 
