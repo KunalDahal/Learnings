@@ -183,6 +183,13 @@ Python eventually became my main language.
 
 * K-Nearest Neighbors (KNN)(K selection, cross validation)
 
+#### Classification Models
+
+* Logistic Regression
+  - Binary Classification
+  - Multinomial Classification (Softmax)
+  - Multinomial Classification (One-vs-Rest/OvR)
+
 ---
 # *Next Update Coming tomorrow!* 
 ---
