@@ -1,110 +1,98 @@
-# My Learning Journey
+# My Machine Learning Journey
 
-This repository’s README.md is basically my personal learning log.
-
-I use it to track what I’ve learned, what I’ve built, and the random paths my learning sometimes takes.
-
-While this README describes my **overall learning journey in programming and technology**, the actual code in this repository mainly focuses on **my Machine Learning learning process**, where I push the experiments, implementations, and concepts I study. A Dumpyard for all Algorithms and Techniques I learn!
+> *A comprehensive roadmap of my machine learning learning process, starting from January 2025*
 
 ---
 
-# Learning Path
+## Journey Timeline & Roadmap
 
-## 1. Programming Languages
-
-I did start with Python, But My journey began with:
-
-* C
-* C++
-
-This is where I learned the fundamentals of programming and problem solving.
-After that I explored basic web development.
-
-* HTML
-* CSS
-* JavaScript
-
-I stopped at JavaScript and didn’t go deeper into frameworks, Realized that I was not a development guy!
-While experimenting with different things I also worked with:
-
-* Java
-* Django (Python framework – used during internship)
-* Git
-* GitHub
-* Docker (used for deploying projects)
-* Basic AWS knowledge
-* OpenCV
-* Flutter
-* Dart -> Again Realized that I was not a development guy, so i left! 
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                               │
+│  JAN-APR 2025          APR-SEPT 2025         OCT-DEC 2025          JAN+ 2026         │
+│  ┌────────────┐    ┌─────────────┐    ┌──────────────┐   ┌──────────────┐  │
+│  │ Foundation │───▶│ Data Tools  │───▶│  Mathematics │──▶│ Algorithms   │  │
+│  │ & Basics   │    │ & Gathering │    │   & Theory   │   │ & ML Models  │  │
+│  └────────────┘    └─────────────┘    └──────────────┘   └──────────────┘  │
+│       │                   │                   │                   │         │
+│   Fundamentals      Tools & Pipelines   Theory & Math          Practice     │
+│                                                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Python Ecosystem
+## Phase 1: Foundation & Basics (January-April 2025)
 
-Python eventually became my main language.
+### Python Fundamentals
+- **Python Basics**: Data types, control flow, functions, loops
+- **Object-Oriented Programming (OOP)**: Classes, inheritance, polymorphism, encapsulation
+- **Location**: [python-basics/](Phase-1-Foundation/python-basics/)
 
-### Core Python
-
-* Python Basics
-* OOP
-* Tkinter
-* Flask
-* Streamlit
-
-### Data and Visualization
-
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* Plotly
-
-### Automation and Scraping
-
-* Selenium
-* BeautifulSoup (BS4)
-
-### Data Work
-
-* Data Gathering
-* Data Cleaning
-* Exploratory Data Analysis
-
-### ML Workflow
-- ColumnTransformer
-- sklearn Pipeline
-- ROC curve, AUC-ROC curve
-- Cross Validation and its types
+> *Master the foundation before building the house!*
 
 ---
 
-## Tools and Libraries I Used
+## Phase 2: Data Tools & Gathering (April-September 2025)
 
-### Telegram Development
+Essential libraries for data manipulation and visualization:
 
-* python-telegram-bot
-* Telethon
-* Pyrogram
+### NumPy
+- Array operations and numerical computing
+- Matrix manipulations and linear algebra basics
+- **Location**: [numpy/](Phase-2-Data-Tools/numpy/)
 
-### Databases
+### Pandas
+- Data frames and series manipulation
+- Data reading/writing (CSV, JSON, etc.)
+- Data cleaning and transformation
+- **Location**: [Pandas/](Phase-2-Data-Tools/Pandas/)
 
-* MongoDB (PyMongo)
-* Motor (Async MongoDB)
-* Redis
-* aioredis
+### Matplotlib
+- Static visualization and plotting
+- Customization and styling
+- **Location**: [Matplotlib/](Phase-2-Data-Tools/Matplotlib/)
 
-### Other Tools
-
-* FFmpeg
-* Telegraph API
-* Sentence Transformers
-* HuggingFace API
+### Plotly
+- Interactive visualizations
+- Advanced charting and dashboards
+- **Location**: [plotly/](Phase-2-Data-Tools/plotly/)
 
 ---
-## Feature Engineering
+
+### Web Scraping Techniques
+- **BeautifulSoup**: Parse and extract data from HTML/XML
+- **Selenium**: Automate browser interactions and dynamic scraping
+
+### Data Gathering Concepts
+- Web scraping best practices
+- API interaction
+- Data collection strategies
+- **Location**: [Data Gatheriing/](Phase-2-Data-Tools/Data%20Gatheriing/)
+
+---
+
+### Data Cleaning & Preparation
+
+Transforming raw data into usable datasets:
+
+### Data Cleaning Tasks
+- Handling missing values
+- Outlier detection and treatment
+- Data validation and consistency checks
+- Duplicate removal
+- Type conversions and standardization
+- **Location**: [Data cleaning/](Phase-2-Data-Tools/Data%20cleaning/)
+
+---
+
+### Feature Engineering
+
+Creating powerful features for better model performance:
 
 ### Feature Construction
 - Creating new features from existing data
+- Domain-specific feature creation
 
 ### Feature Selection
 - Filter Methods
@@ -116,10 +104,12 @@ Python eventually became my main language.
 **Encoding**
 - One Hot Encoding
 - Ordinal Encoding
+- Label Encoding
 
-**Scaling**
+**Scaling/Normalization**
 - MinMax Normalization
 - Standardization (Standard Scaler)
+- Robust Scaling
 
 **Mathematical Transformations**
 - Log Transformation
@@ -137,100 +127,158 @@ Python eventually became my main language.
 - Discretization
 
 ### Feature Extraction
-- Principle Component Analysis
+- **Principal Component Analysis (PCA)** 
+  - Understanding covariance matrices
+  - Eigenvalues and eigenvectors in PCA
+  - Dimensionality reduction concepts
+  - Variance explained
+  - Principal component selection
+  - Implementation and applications
+- **Location**: [Feature Engineering/](Phase-2-Data-Tools/Feature%20Engineering/)
 
 ---
 
-## Machine Learning
+## Phase 3: Mathematics for ML (October-December 2025)
 
-### Mathematical Foundations & Fundamentals
+The mathematical backbone of machine learning:
 
-* Probability
-* Linear Algebra for Machine Learning
-* Calculus Basics
-* Machine Learning history
-* Types of machine learning
-* ML development cycle
+### Linear Algebra
+- Vectors and Matrices
+- Matrix operations and transformations
+- Eigenvalues and Eigenvectors
+- Matrix decomposition
+- **Location**: [linalg/](Phase-3-Mathematics/linalg/)
 
-### Algorithms and Concepts (In this Repository)
+### Probability & Statistics
+- Probability fundamentals
+- Probability distributions (Normal, Binomial, Poisson, etc.)
+- Descriptive statistics (mean, median, variance, etc.)
+- Hypothesis testing
+- **Location**: [probability distribution/](Phase-3-Mathematics/probability%20distribution/) & [descriptive stats/](Phase-3-Mathematics/descriptive%20stats/) & [hypo test/](Phase-3-Mathematics/hypo%20test/)
 
-#### Linear Models
-
-* Simple Linear Regression (OLS)
-* Multiple Linear Regression (OLS)
-* Polynomial Regression
-
-#### Optimization
-
-* Gradient Descent from scratch
-* Batch Gradient Descent
-* Stochastic Gradient Descent
-* Mini Batch Gradient Descent
-
-#### Model Understanding
-
-* Multicolinearity
-* Bias Variance Tradeoff
-* Regression Analysis
-
-#### Regularization
-
-* Ridge Regression (L2)
-* Lasso Regression (L1)
-* ElasticNet Regression
-
-#### Instance Based Learning
-
-* K-Nearest Neighbors (KNN)(K selection, cross validation)
-
-#### Classification Models
-
-* Logistic Regression
-  - Binary Classification
-  - Multinomial Classification (Softmax)
-  - Multinomial Classification (One-vs-Rest/OvR)
-
----
-# *Next Update Coming tomorrow!* 
----
-
-## Projects(Random Ones)
-
-Email Spam Detection (Naive Bayes)
-https://github.com/KunalDahal/Email-Spam-Detection-Naive-Bayes-.git
-
-Face Detection using OpenCV
-https://github.com/KunalDahal/Face-detection-using-OpenCV.git
-
-Text Classification GUI Tool
-https://github.com/KunalDahal/Text-Classification-GUI-Tool.git
-
-House Price Predictor (Multiple Linear Regression)
-https://github.com/KunalDahal/House-Price-Predictor-Model.git
+### Calculus
+- Derivatives and gradients
+- Optimization fundamentals
+- Integration basics
 
 ---
 
-## Telegram Bots Projects
-Sorry, I can't share the repository links as the projects are private and contain valuable work. These are the Projects I built over the year **2025-2026** : 
+## Phase 4: Machine Learning Algorithms & Models (January+ 2026)
 
-- **Media Encoding Bot** : Encodes videos using FFmpeg with configurable settings like CRF, preset, audio bitrate and codec options.
+### Optimization Techniques
 
-- **File Sharing Bot** : Stores uploaded files and generates shareable download links.
-
-- **Anime Data Bot** : Fetches anime data from AniList, MyAnimeList APIs and stores them in MongoDB.
-
-- **Semantic Anime Search Bot** : Searches stored anime data using Sentence Transformers for semantic matching.
-
-- **Personal Telegram Bot** : A personal bot that acts as a mediator between users and me to maintain privacy.
-
-- **Quiz Bot** : A Telegram quiz bot for group chats. Currently used by **5000+ active users**.
-
-- **Auto Posting Bot** : Automatically collects posts from multiple Telegram channels, modifies the content using HuggingFace API, and reposts them into a destination channel.
-
-- **Torrent Tracker Bot** : Tracks the latest torrent releases using RSS feeds from sites like Nyaa.si, Tokyo Toshokan, and Nekobit. Link : https://github.com/KunalDahal/Torrent-Tracker-Telegram-Bot.git
+#### Gradient Descent
+- From scratch implementation
+- Batch Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-Batch Gradient Descent
+- **Location**: [Gradient Descent/](Phase-4-ML-Algorithms/Gradient%20Descent/)
 
 ---
 
-> Programming is just turning coffee into bugs and then turning bugs back into features.
+### Linear Regression Models
 
-See ya!
+#### Simple Linear Regression
+- Ordinary Least Squares (OLS)
+- Single variable prediction
+
+#### Multiple Linear Regression
+- OLS with multiple features
+- Feature relationships
+
+#### Polynomial Regression
+- Non-linear relationships
+- Higher-degree polynomial fitting
+
+- **Location**: [Linear Regression/](Phase-4-ML-Algorithms/Linear%20Regression/)
+
+---
+
+### Regularization Techniques
+
+Preventing overfitting and improving generalization:
+
+#### Ridge Regression (L2 Regularization)
+- Penalty on coefficient magnitude
+- Shrinkage method
+
+#### Lasso Regression (L1 Regularization)
+- Feature selection through shrinkage
+- Sparse models
+
+#### ElasticNet Regression
+- Combination of L1 and L2
+- Best of both worlds
+
+- **Location**: [Regularization/](Phase-4-ML-Algorithms/Regularization/)
+
+---
+
+### Classification Models
+
+#### Logistic Regression
+- **Binary Classification**: Two-class problems
+- **Multinomial Classification (Softmax)**: Multi-class with probability distributions
+- **One-vs-Rest (OvR)**: Multi-class strategy
+
+- **Location**: [Logistic Regression/](Phase-4-ML-Algorithms/Logistic%20Regression/)
+
+#### K-Nearest Neighbors (KNN)
+- Instance-based learning
+- K-selection strategies
+- Cross-validation for optimal K
+- **Location**: [K-Nearest Neighbors/](Phase-4-ML-Algorithms/K-Nearest%20Neighbors/)
+
+#### Naive Bayes
+- Probabilistic classifier
+- Bayes' theorem application
+- Assumptions and limitations
+- **Location**: [Naive Bayes/](Phase-4-ML-Algorithms/Naive%20Bayes/)
+
+---
+
+### Machine Learning Fundamentals & Workflow
+
+#### Core Concepts
+- Bias-Variance Tradeoff: Understanding model complexity
+- Multicollinearity: Feature relationships and remedies
+- Regression Analysis: Model evaluation and interpretation
+- **Location**: [Model Workflow/](Phase-4-ML-Algorithms/Model%20Workflow/)
+
+---
+
+### Dimensionality Reduction
+
+#### Principal Component Analysis (PCA)
+- Covariance matrix computation
+- Eigenvalue decomposition
+- Feature reduction and variance preservation
+- Interpreting principal components
+- When to use PCA
+- **Location**: [Feature Engineering/](Phase-2-Data-Tools/Feature%20Engineering/)
+
+---
+
+## Repository Philosophy
+
+This repository serves as:
+- **A Learning Logbook**: Tracking my journey through ML
+- **A Reference Guide**: Implementations and explanations of key concepts
+- **An Experiment Ground**: Testing new ideas and techniques
+- **A Roadmap**: For others starting their ML journey
+
+> *Machine Learning is not just about algorithms—it's about understanding data, mathematics, and building intuition through practice.*
+
+---
+
+## Acknowledgments
+
+This journey reflects dedication to:
+- Understanding fundamentals before advanced topics
+- Theory and practical implementation together
+- Continuous learning and experimentation
+- Building projects with real-world applications
+
+---
+
+**Last Updated**: 7th May 2026 | *Continuously Learning & Growing*
