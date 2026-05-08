@@ -155,6 +155,7 @@ The mathematical backbone of machine learning:
 - Descriptive statistics (mean, median, variance, etc.)
 - Hypothesis testing
 - **Location**: [probability distribution/](Phase-3-Mathematics/probability%20distribution/) & [descriptive stats/](Phase-3-Mathematics/descriptive%20stats/) & [hypo test/](Phase-3-Mathematics/hypo%20test/)
+- **Learning Resource**: https://www.video-tutor.net/statistic.html
 
 ### Calculus
 - Derivatives and gradients
