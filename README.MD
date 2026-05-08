@@ -238,11 +238,11 @@ Preventing overfitting and improving generalization:
 - **Location**: [Naive Bayes/](Phase-4-ML-Algorithms/Naive%20Bayes/)
 
 #### Support Vector Machines (SVM)
-- Linear and non-linear classification
-- Kernel methods and kernel tricks
-- Support vector selection
-- Margin maximization concepts
-- **Location**: [SVM/](Phase-4-ML-Algorithms/SVM/) *(In Progress)*
+- Hard margin and soft margin classification
+- Linear classification
+- Margin maximization and hinge loss
+- Non Linear Classification *Ongoing*
+- **Location**: [SVM/](Phase-4-ML-Algorithms/Support%20Vector%20Machine%20(SVM)/)
 
 ---
 
@@ -290,4 +290,4 @@ This journey reflects dedication to:
 
 ---
 
-**Last Updated**: 7th May 2026 | *Continuously Learning & Growing*
+**Last Updated**: 8th May 2026 | *Continuously Learning & Growing*
