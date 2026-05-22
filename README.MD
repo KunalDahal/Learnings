@@ -242,8 +242,16 @@ Preventing overfitting and improving generalization:
 - Hard margin and soft margin classification
 - Linear classification
 - Margin maximization and hinge loss
-- Non Linear Classification *Ongoing*
+- Constrained optimization problem formulation (primal form)
+- Dual form optimization
+- Kernel trick and kernelized SVM (non-linear classification)
 - **Location**: [SVM/](Phase-4-ML-Algorithms/Support%20Vector%20Machine%20(SVM)/)
+
+#### Decision Tree
+- CART algorithm (Classification and Regression Trees)
+- Split criteria and greedy recursive partitioning
+- Tree growth, stopping criteria, and pruning basics
+- **Location**: [Decision Tree/](Phase-4-ML-Algorithms/Decision%20Tree/)
 
 ---
 
@@ -291,4 +299,4 @@ This journey reflects dedication to:
 
 ---
 
-**Last Updated**: 8th May 2026 | *Continuously Learning & Growing*
+**Last Updated**: 22nd May 2026 | *Continuously Learning & Growing*
