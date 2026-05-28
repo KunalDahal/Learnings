@@ -245,6 +245,9 @@ Preventing overfitting and improving generalization:
 - Constrained optimization problem formulation (primal form)
 - Dual form optimization
 - Kernel trick and kernelized SVM (non-linear classification)
+- Session on Constraint optimization problem
+- SVM dual formulation and optimization
+- Mathematical intuition behind SVM kernels
 - **Location**: [SVM/](Phase-4-ML-Algorithms/Support%20Vector%20Machine%20(SVM)/)
 
 #### Decision Tree
@@ -252,6 +255,55 @@ Preventing overfitting and improving generalization:
 - Split criteria and greedy recursive partitioning
 - Tree growth, stopping criteria, and pruning basics
 - **Location**: [Decision Tree/](Phase-4-ML-Algorithms/Decision%20Tree/)
+
+---
+
+### Ensemble Learning
+
+Combining multiple models to improve prediction stability and performance:
+
+- **Location**: [Ensemble Learning/](Phase-4-ML-Algorithms/Ensemble%20Learning/)
+
+#### Ensemble Learning Basics
+- What ensemble learning is and why it works
+- Wisdom of the crowd and consensus-based learning
+- Basic types of ensemble learning:
+  - Voting
+  - Bagging
+  - Boosting
+  - Stacking
+
+#### Voting
+- Completed voting ensemble concepts
+- Checked related code implementations
+
+#### Stacking
+- Completed stacking ensemble concepts
+- Checked related code implementations
+
+#### Bagging
+- Completed basic bagging concepts
+- Bootstrap Aggregation: training multiple models on sampled datasets
+- Sampling styles:
+  - Bootstrap sampling
+  - Sampling with replacement
+  - Sampling without replacement
+  - Row sampling
+  - Column sampling
+  - Random subspace sampling
+  - Balanced bootstrap sampling
+  - Random patches
+- Out-of-Bag (OOB) score
+- GridSearchCV for hyperparameter tuning
+- Bagging classifier
+- Bagging regressor
+
+#### Random Forest
+- Completed Random Forest topic
+- Covered Random Forest basics and intuition
+- Completed Random Forest coding implementation
+- Studied Extremely Randomized Trees concept inside Random Forest
+- **Location**: [Random Forest/](Phase-4-ML-Algorithms/Ensemble%20Learning/Bagging/Random%20Forest/)
 
 ---
 
@@ -299,4 +351,4 @@ This journey reflects dedication to:
 
 ---
 
-**Last Updated**: 22nd May 2026 | *Continuously Learning & Growing*
+**Last Updated**: 28th May 2026 | *Continuously Learning & Growing*
