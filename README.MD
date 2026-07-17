@@ -305,6 +305,16 @@ Combining multiple models to improve prediction stability and performance:
 - Studied Extremely Randomized Trees concept inside Random Forest
 - **Location**: [Random Forest/](Phase-4-ML-Algorithms/Ensemble%20Learning/Bagging/Random%20Forest/)
 
+#### Boosting
+- Completed Boosting algorithms topic
+- Covered sequential ensemble learning and error-correction intuition
+- Completed Gradient Boosting concepts and implementation
+- Completed AdaBoost learning notebook
+- Completed XGBoost learning notebook and reviewed the XGBoost paper
+- Completed LightGBM learning notebook
+- Completed CatBoost learning notebook
+- **Location**: [Boosting/](Phase-4-ML-Algorithms/Ensemble%20Learning/Boosting/)
+
 ---
 
 ### Machine Learning Fundamentals & Workflow
@@ -351,4 +361,4 @@ This journey reflects dedication to:
 
 ---
 
-**Last Updated**: 28th May 2026 | *Continuously Learning & Growing*
+**Last Updated**: 17th July 2026 | *Continuously Learning & Growing*
